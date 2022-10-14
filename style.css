@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+body{
+    font-family: 'Abyssinica SIL', serif;
+    background-color:#2c2f33;
+}
+
+.box{
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+}
+
+.input {
+    padding: 10px;
+    width: 120px;
+    height: 40px;
+    background: none;
+    border: 4px solid #a19f9f;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-size: 26px;
+    color: #24231e;
+    outline: none;
+    transition: .5s;
+}
+.box:hover input{
+    width: 250px;
+    border: 5px solid #000000;
+    transition: 0.6s;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.box i{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    color: #ffd52d;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hello{
+    display: flex;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tittle{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    transition: 0.4s;
+    font-size:24px;
+    margin-right: 10px;
+}
+.tittle:hover{
+    color:darkgrey;
+    background-color: rgb(192, 186, 186);
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+.home{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    transition: 0.4s;
+    font-size:24px;
+}
+.about{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    transition: 0.4s;
+    font-size:24px;
+}
+.about:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(192, 186, 186);
+    border-radius: 10px;
+    text-decoration: underline;
+}
+.home:hover{
+    background-color: rgb(192, 186, 186);
+    border-radius: 10px;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.s2000{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: #2c2f33;
+    flex-direction: column;
+}
+.threetyping{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 450px;
+    width: 600px;
+    height: 200px;
+    display: flex;
+}
+.threetype{
+    margin: 10px;
+   }
+.s1990{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: #ffffff;
+    flex-direction: column;
+}
+.twotyping{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 450px;
+    width: 600px;
+    height: 200px;
+    display: flex;
+}
+.twotype{
+    margin: 10px;
+   }
+.s1980{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: #2c2f33;
+    flex-direction: column;
+}
+.levistyping{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 450px;
+    width: 600px;
+    height: 200px;
+    display: flex;
+}
+.levistype{
+    margin: 10px;
+   }
+.levis{
+    margin: 10px;
+ display: flex;
+}
+.onep{
+    padding: 15px;
+    transition: 0.6s;
+    border-radius: 20px;
+}
+.onep:hover{
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+.threep {
+    padding: 15px;
+    transition: 0.6s;
+    border-radius: 20px;
+}
+.threep:hover{
+    transition: 0.6s;
+    transform: scale(1.1);
+}.twop {
+    padding: 15px;
+    transition: 0.6s;
+    border-radius: 20px;
+}
+.twop:hover{
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+.typetext{
+    color:rgb(80, 79, 79);
+    font-size: 18px;
+    text-align: center;
+}
+nav{
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+    justify-content: baseline;
+    text-align: right;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+.u{
+    display: flex;
+}
+.vector{
+    transform: scale(.85);
+    animation: pulse 2s ease-in-out infinite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@keyframes pulse {
+    from {
+      transform: scale(.85);
+    }
+    50% {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(.85);
+    }
+  }
+.container{
+        width: 100%;
+        margin: auto;
+        height: auto 800px;
+        background: rgb(252, 250, 250);
+        box-shadow: 0px 4px 10px 7px rgb(0, 0, 0);
+}
+.containerleftphoto{
+    padding: 20px;
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.containerinone{
+    padding: 10px;
+    text-align: center;
+    color:rgb(41, 40, 40);
+    font-size: 36px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.info{
+    padding: 10px;
+    width: 80%;
+    margin:auto;
+}
+.information{
+    text-align: center;
+    font-size: 18px;
+    color:rgb(0, 0, 0);
+}
+h1{
+    font-size: 92px;
+}
+.fashiontype{
+    margin: 10px;
+}
+@font-face {
+    font-family: 'e-UkraineHead';
+    src: url(./e-UkraineHead-Bold.otf);
+}
+p {
+    font-family: e-UkraineHead;
+    font-size: 24px;
+}
+#white{
+    color: #ffffff;
+}
+#red{
+    color: #ED4245;
+}
+#yellow{
+    color: #FEE75C;
+}
+#blue{
+    color: #5865F2;
+}
+#green{
+    color: #57F287;
+}
+.footerglobal{
+  background-color:#2c2f33;
+  width: 100%;
+  height: 300px; 
+}
+.footerglobal{
+    padding: 10px;
+}
+.email{
+    padding: 10px;
+}
+.contacttype{
+    padding: 20px;
+    color: gray;
+}
+.contacttype:hover{
+    transition: 0.3s;
+    color: #ffffff;
+}
+.vectorfooter{
+    transform: scale(.85);
+    animation: pulse2 2s ease-in-out infinite;
+}
+@keyframes pulse2 {
+    from {
+      transform: scale(.85);
+    }
+    50% {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(.85);
+    }
+  }
