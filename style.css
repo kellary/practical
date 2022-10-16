@@ -185,7 +185,6 @@ color:white;
  display: flex;
 }
 .onep{
-    padding: 1.5%;
     transition: 0.6s;
     border-radius: 20px;
 }
@@ -194,7 +193,6 @@ color:white;
     transform: scale(1.1);
 }
 .threep {
-    padding: 1.5%;
     transition: 0.6s;
     border-radius: 20px;
 }
@@ -202,7 +200,6 @@ color:white;
     transition: 0.6s;
     transform: scale(1.1);
 }.twop {
-    padding: 1.5%;
     transition: 0.6s;
     border-radius: 20px;
 }
