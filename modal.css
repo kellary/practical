@@ -1,10 +1,8 @@
 .modal__backdrop {
-    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.5);
     opacity: 0;
     z-index: -1;
     pointer-events: none;
@@ -27,7 +25,7 @@
   
   @media (min-width: 576px) {
     .modal__content {
-      max-width: 500px;
+      max-width: 50%;
       margin: 50px auto;
     }
   }
