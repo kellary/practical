@@ -323,6 +323,13 @@ href{
 href:hover{
     transition: 0.3s;
 }
+.copytype{
+    width:  800px;
+    height: auto;
+    text-align: right;
+    font-size: large;
+    color:white;
+}
 .email{
     color: antiquewhite;
     width: 400px;
