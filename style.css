@@ -259,7 +259,6 @@ header{
     align-items: center;
 }
 .containerleftphoto{
-    padding: 1%;
     width: 100%;
     display: inline-flex;
     flex-wrap: wrap;
