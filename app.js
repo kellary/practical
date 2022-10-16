@@ -28,8 +28,8 @@ $modal = function (options) {
             modalFooterHTML = '';
 
         elemModal.classList.add('modal');
-        modalHTML = modalTemplate.replace('{{title}}', options.title || 'О нас');
-        modalHTML = modalHTML.replace('{{content}}', options.content || 'Занимаемся демонстрации новой и прошлой модой мира.');
+        modalHTML = modalTemplate.replace('{{title}}', options.title || 'About');
+        modalHTML = modalHTML.replace('{{content}}', options.content || 'We are engaged in demonstration of new and past fashion of the world.');
         if (options.footerButtons) {
             for (var i = 0, length = options.footerButtons.length; i < length; i++) {
                 var modalFooterButton = modalButtonTemplate.replace('{{button_class}}', options.footerButtons[i].class);
