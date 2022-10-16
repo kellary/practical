@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+body{
+    font-family: 'e-UkraineHead';
+    background-color:#2c2f33;
+}
+@font-face {
+    font-family: 'e-UkraineHead';
+    src: url(./e-UkraineHead-Bold.otf);
+}
+nav{
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+    justify-content: baseline;
+    text-align: right;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hello{
+    display: flex;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+}
+
+.input {
+    padding: 10px;
+    width: 120px;
+    height: 40px;
+    background: none;
+    border: 4px solid #a19f9f;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-size: 26px;
+    color: #24231e;
+    outline: none;
+    transition: .5s;
+}
+.box:hover input{
+    width: 250px;
+    border: 5px solid #000000;
+    transition: 0.6s;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.box i{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    color: #ffd52d;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}
+.tittle{
+    margin-left: 10px;
+    text-align: center;
+    width: auto;
+    height: 30px;
+    transition: 0.4s;
+    font-size:24px;
+    margin-right: 10px;
+}
+.tittle:hover{
+    color:darkgrey;
+    background-color: rgb(192, 186, 186);
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.home{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    transition: 0.4s;
+    font-size:24px;
+}
+.about{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    transition: 0.4s;
+    font-size:24px;
+}
+.about:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(192, 186, 186);
+    border-radius: 10px;
+    text-decoration: underline;
+}
+.home:hover{
+    background-color: rgb(192, 186, 186);
+    border-radius: 10px;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.hello{
+    display: flex;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fashiontype{
+    margin: 10px;
+}
+.vector{
+    transform: scale(.85);
+    animation: pulse 2s ease-in-out infinite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@keyframes pulse {
+    from {
+      transform: scale(.85);
+    }
+    50% {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(.85);
+    }
+}
+#white{
+    color: #ffffff;
+}
+#red{
+    color: #ED4245;
+}
+#yellow{
+    color: #FEE75C;
+}
+#blue{
+    color: #5865F2;
+}
+#green{
+    color: #57F287;
+}
+.onep{
+    text-align: center;
+}
+h1{
+    font-family: 'e-UkraineHead';
+    font-size: 92px;
+}
+h2{
+    font-family: 'e-UkraineHead';
+}
+h3{
+    font-family: 'e-UkraineHead';
+}
+p{
+    font-family: 'e-UkraineHead';
+}
+.containernews{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+footer{
+    margin: 5% auto;
+}
+.footerglobal{
+    background-color:#2c2f33;
+    width: 100%;
+    height: auto; 
+  }
+  .footerglobal{
+      padding: 10px;
+  }
+  .email{
+      padding: 10px;
+  }
+  .contacttype{
+      padding: 20px;
+      color: gray;
+  }
+  .contacttype:hover{
+      transition: 0.3s;
+      color: #ffffff;
+  }
+  .vectorfooter{
+      transform: scale(.85);
+      animation: pulse2 2s ease-in-out infinite;
+  }
+  @keyframes pulse2 {
+      from {
+        transform: scale(.85);
+      }
+      50% {
+        transform: scale(1);
+      }
+      to {
+        transform: scale(.85);
+      }
+    }
