@@ -125,7 +125,6 @@ a{
 
 img{
     max-width:100%;
-         height:auto;
     transition: 0.6s;
     z-index: 0;
 }
@@ -262,7 +261,9 @@ header{
     width: 100%;
     display: inline-flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
 }
 .containerinone{
     padding: 1%;
